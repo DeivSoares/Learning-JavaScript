@@ -1,22 +1,24 @@
-:root{
+:root {
     font-size: 62.5%;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html, body{
+
+html,
+body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
 }
 
-body{
+body {
     background-color: rgb(44, 20, 20);
 }
 
-body div.content-wrapper{
+body div.content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +26,7 @@ body div.content-wrapper{
     height: 100%;
 }
 
-body div.content-wrapper main{
+body div.content-wrapper main {
     background-color: rgba(31, 28, 25, 0.575);
     color: orange;
     border-radius: 2.5rem;
@@ -34,12 +36,12 @@ body div.content-wrapper main{
     height: 50rem;
 }
 
-body div.content-wrapper main h1{
+body div.content-wrapper main h1 {
     text-align: center;
     font-size: 5rem;
 }
 
-body div.content-wrapper main div{
+body div.content-wrapper main div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +50,7 @@ body div.content-wrapper main div{
     font-size: 2rem;
 }
 
-body div.content-wrapper main div#relogio{
+body div.content-wrapper main div#relogio {
     font-size: 15rem;
     text-shadow: orangered 5px 2px 6px;
 }

@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+    body div.content-wrapper main {
+        padding: 2.5rem;
+        width: 40rem;
+        height: 30rem;
+    }
+
+
+    body div.content-wrapper main div#relogio {
+        font-size: 10rem;
+    }
+}
